@@ -109,7 +109,7 @@ class MyApp extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
-                '17',
+                '18',
                 style: TextStyle(
                   fontFamily: 'ChivoMono',
                   fontSize: 30,
@@ -156,11 +156,17 @@ class MyApp extends StatelessWidget {
                 child: IconButton(
                   icon: const Icon(
                     Icons.mail,
-                    color: Color.fromARGB(255, 105, 82, 13),
+                    color: Colors.black,
                   ),
                   onPressed: () {
                     print('user emailed succesfully');
                   },
+                  //onPressed: () async {
+                  //  final: toEmail = 'nodihimself@gmail.com';
+                  //  final: subject = '';
+                  //  final: message = '';
+                  //  final url = 'mailto:$toEmail?subject=${subject}&body=${message}';
+                  //},
                 ),
               ),
             ),
